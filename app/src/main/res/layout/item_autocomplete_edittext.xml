@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textInputLayout"
+    style="@style/matchWrap_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/_5sdp"
+    app:boxBackgroundColor="@color/white">
+
+    <AutoCompleteTextView
+        android:id="@+id/et_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/client_name"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:padding="@dimen/_10sdp"
+        tools:ignore="LabelFor" />
+</com.google.android.material.textfield.TextInputLayout>

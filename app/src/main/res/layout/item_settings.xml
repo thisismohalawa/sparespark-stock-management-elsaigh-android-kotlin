@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchWrap_"
+    android:padding="@dimen/_8sdp">
+
+    <ImageView
+        android:id="@+id/nav_icon"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_arrow_right"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        style="@style/matchWrap_"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_toStartOf="@id/nav_icon">
+
+        <TextView
+            android:id="@+id/setting_title"
+            style="@style/subTitle_"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/setting_subtitle"
+            style="@style/subTitle_" />
+    </LinearLayout>
+</RelativeLayout>

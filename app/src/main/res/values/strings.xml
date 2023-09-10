@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">ELSAIGH</string>
+    <string name="data">Exchange List</string>
+    <string name="profile">Profile</string>
+    <string name="clients">Clients</string>
+    <string name="location">Location</string>
+    <string name="search">Search</string>
+    <string name="filtered">Filtered</string>
+    <string name="permission_granted_storage">Storage Permission Granted</string>
+    <string name="permission_denied_storage">Storage Permission Denied</string>
+
+    <!--Login-->
+    <string name="let_s_work">Let\'s Work</string>
+    <string name="together">Together</string>
+    <string name="sign_in_">Sign In?</string>
+    <string name="sign_out_">Sign out?</string>
+    <string name="signed_in_successfully">Signed in successfully.</string>
+    <string name="signed_out_title">You\'re currently signed out.</string>
+    <string name="unable_to_sign">Unable to complete the signing process.</string>
+    <string name="cannot_sign_in">You cannot sign in right now.</string>
+
+    <!--Error-->
+    <string name="activated">Activated.</string>
+    <string name="deactivated">Deactivated.</string>
+    <string name="no_internet">No Internet Connection.</string>
+    <string name="error_update_entries">Error while updating entries!</string>
+    <string name="error_try_again">Error try again!</string>
+    <string name="cannot_update_user">Error while updating remote user.</string>
+    <string name="error_navigate_try_again">Navigation error, try again!</string>
+    <string name="error_get_data">Error while getting data!</string>
+    <string name="error_get_team_data">Error while getting team data!</string>
+    <string name="error_load_city">Error while loading cities.</string>
+    <string name="error_load_client">Error while loading clients.</string>
+    <string name="error_update_data">Error while updating data!</string>
+    <string name="invalid_phone_num">Invalid Phone Number.</string>
+    <string name="invalid_action">Can\'t Complete Action.</string>
+
+    <!--Actions-->
+    <string name="share_action">Share with team</string>
+    <string name="nothing"> </string>
+    <string name="check_signed_user">Checking for a signed user…</string>
+    <string name="synced_successfully">User synced successfully.</string>
+    <string name="get_remote_user">Getting signed remote user data…</string>
+    <string name="cant_find_remote_user">Can\'t find remote user.</string>
+    <string name="update_user_data">Updating local user data…</string>
+    <string name="not_permitted">You don\'t have permission.</string>
+    <string name="no_data">No data.</string>
+    <string name="error_set_auto_backup">Error while setting auto backups process.</string>
+
+    <!--Presences-->
+    <string name="settings">Settings</string>
+    <string name="cache_time">Cache time in minutes.</string>
+    <string name="client_data_cache">Clients and team\'s data.</string>
+    <string name="exchange_data_cache">Main exchange data list.</string>
+    <string name="set_cache_time">Set cache time for clients and team\'s data.</string>
+    <string name="set_exchange_cache_time">Set cache time for main exchange data list.</string>
+    <string name="display_only_today_items">Display only today\'s items</string>
+    <string name="auto_data_backup">Auto data backup</string>
+    <string name="start_backup">Start data backup into your local device…</string>
+    <string name="auto_backup_info">Allow the app to download a data backup each at a certain time.</string>
+
+    <!--Filter-->
+    <string name="search_for_exchange">Search for data exchange</string>
+    <string name="search_by">Type a name, city, or date search.</string>
+    <string name="select_city">Select a City</string>
+    <string name="select_client">Select a Client</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+    <string name="pending">Pending</string>
+    <string name="completed">Completed</string>
+    <string name="total_balance">Total Balance</string>
+    <string name="total_exchange">Total Exchange List</string>
+    <string name="today_exchange">Today\'s Exchange List</string>
+
+    <!--StockDetails-->
+    <string name="update_item">Update Item</string>
+    <string name="created_by">Created by</string>
+    <string name="update_by">Updated by</string>
+    <string name="date">Date</string>
+    <string name="asset_price">Asset Gram Price</string>
+    <string name="asset_quantity">Asset Quantity</string>
+    <string name="asset_total_price">Total Price</string>
+    <string name="details">Details</string>
+    <string name="le">LE</string>
+    <string name="g">G</string>
+    <string name="avg">AV</string>
+    <string name="operation_type">Operation Type</string>
+    <string name="add_item">Add Item</string>
+    <string name="store_temp">Store as temporary?</string>
+    <string name="updated_success">Updated Successfully</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="delete_permanently">Delete Permanently</string>
+    <string name="send_data_to_server">Send temporary to exchange list.</string>
+    <string name="select">Select item</string>
+
+
+    <!--Profile-->
+    <string name="activities">Activities</string>
+    <string name="temp_database">Temporary Database</string>
+    <string name="invalid_cache">Invalid Cache?</string>
+    <string name="invalid_cache_info">Clear stored data cache.</string>
+    <string name="logout">Logout?</string>
+    <string name="logout_">Logout.</string>
+    <string name="delete_completed_item">Delete All Completed Items?</string>
+    <string name="backup_first">Download backup first?</string>
+
+
+    <!--Client-->
+    <string name="update">Update</string>
+    <string name="confirm">Confirm</string>
+    <string name="phone_number">Phone number</string>
+    <string name="update_client">Update Client</string>
+    <string name="client_name">Client name</string>
+    <string name="delete_client">Delete client</string>
+    <string name="call_client">Call</string>
+    <string name="send_message">Send Message</string>
+
+    <!--City-->
+    <string name="update_city">Update City</string>
+    <string name="delete_city">Delete city</string>
+    <string name="city_name">City name</string>
+    <string name="add_new_city">Add a new city</string>
+
+
+    <!--Team-->
+    <string name="team">Team</string>
+    <string name="pm">Project Manager</string>
+    <string name="pms">Project Managers</string>
+    <string name="admin">Admin</string>
+    <string name="admins">Admins</string>
+    <string name="team_info">Update team, activate or deactivate members.</string>
+    <string name="update_user">Update user</string>
+    <string name="_0_00">0.00</string>
+
+</resources>

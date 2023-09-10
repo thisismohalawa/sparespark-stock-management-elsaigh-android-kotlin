@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "515160252030",
+    "firebase_url": "https://elsaigh-stock-mangement-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "elsaigh-stock-mangement",
+    "storage_bucket": "elsaigh-stock-mangement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515160252030:android:34866386db546e384b422f",
+        "android_client_info": {
+          "package_name": "sparespark.stock.management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515160252030-pn1ftd8i70k92l5ftfjnovcr6gn22cdt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sparespark.stock.management",
+            "certificate_hash": "5ebdc52aee3561c9dc77b05ced7746481cc77fc9"
+          }
+        },
+        {
+          "client_id": "515160252030-oja77u4fheojacjoo81aqvvo6om74g9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAc_poW-K3-MALL5cm8IL8tFl_3I2J6xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "515160252030-fbflvbogprlle4homifaa1ukf55roor5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

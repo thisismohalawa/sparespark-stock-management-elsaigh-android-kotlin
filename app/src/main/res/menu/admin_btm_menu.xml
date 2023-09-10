@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profileView"
+        android:icon="@drawable/ic_user"
+        android:title="@string/profile" />
+    <item
+        android:id="@+id/clientListView"
+        android:icon="@drawable/ic_clients"
+        android:title="@string/clients" />
+    <item
+        android:id="@+id/stockListView"
+        android:icon="@drawable/ic_data"
+        android:title="@string/data" />
+    <item
+        android:id="@+id/filterStockListView"
+        android:icon="@drawable/ic_filter"
+        android:title="@string/filtered" />
+    <item
+        android:id="@+id/stockDetailsView"
+        android:icon="@drawable/ic_add"
+        android:title="@string/add_item" />
+</menu>

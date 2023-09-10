@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Base.Theme.STOCK" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorAccent">@color/green</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">?attr/colorOnPrimary</item>
+        <item name="android:windowBackground">?attr/colorOnPrimary</item>
+    </style>
+</resources>

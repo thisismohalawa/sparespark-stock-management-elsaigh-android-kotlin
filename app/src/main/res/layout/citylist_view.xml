@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/matchMatch_">
+
+    <LinearLayout style="@style/matchMatchWithPadding_">
+
+        <include
+            android:id="@+id/item_search"
+            layout="@layout/item_search" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/city_rec_list"
+            style="@style/matchWrap_"
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/bottom_sheet_update_client"
+        style="@style/Widget.Design.BottomSheet.Modal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="@dimen/_50sdp"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <LinearLayout
+            style="@style/matchMatch_"
+            android:padding="@dimen/_15sdp">
+
+            <TextView
+                style="@style/mainLoginInfoTitle_"
+                android:layout_gravity="start"
+                android:text="@string/update_city" />
+
+            <RelativeLayout
+                style="@style/matchMatch_"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/ed_city_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center"
+                    android:layout_toStartOf="@id/txt_update_city"
+                    android:hint="@string/city_name"
+                    android:maxLines="2" />
+
+                <TextView
+                    android:id="@+id/txt_update_city"
+                    style="@style/updateTitle"
+                    android:textColor="@color/green" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

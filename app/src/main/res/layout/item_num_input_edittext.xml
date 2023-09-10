@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textInputLayout"
+    style="@style/matchWrap_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/_5sdp"
+    app:boxBackgroundColor="@color/white">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:maxLength="15"
+        android:maxLines="1"
+        tools:ignore="LabelFor,RtlHardcoded" />
+</com.google.android.material.textfield.TextInputLayout>

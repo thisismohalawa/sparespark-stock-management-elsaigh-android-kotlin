@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">ELSAIGH</string>
+    <string name="data">المعاملات</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="clients">العملاء</string>
+    <string name="location">الموقع</string>
+    <string name="search">بحث</string>
+    <string name="filtered">بحث</string>
+    <string name="permission_granted_storage">تم منح إذن الوصول للذاكرة</string>
+    <string name="permission_denied_storage">لم يتم منح إذن الوصول للذاكرة</string>
+
+    <!--Login-->
+    <string name="let_s_work">سجل دخولك الأن ولنبدأ</string>
+    <string name="together">العمل معًا</string>
+    <string name="sign_in_">تسجيل الدخول؟</string>
+    <string name="sign_out_">تسجيل خروج؟</string>
+    <string name="signed_in_successfully">تم التسجيل بنجاح.</string>
+    <string name="signed_out_title">أنت مسجّل الخروج حاليًا.</string>
+    <string name="unable_to_sign">تعذر إكمال عملية التسجيل.</string>
+    <string name="cannot_sign_in">لا يمكنك تسجيل الدخول الآن.</string>
+
+    <!--Error-->
+    <string name="activated">نشط.</string>
+    <string name="deactivated">غير نشط.</string>
+    <string name="no_internet">غير متصل بالانترنت.</string>
+    <string name="error_update_entries">خطأ أثناء تحديث البيانات المحلية!</string>
+    <string name="error_try_again">خطأ، حاول مرة أخرى!</string>
+    <string name="cannot_update_user">خطأ أثناء تحديث بيانات المستخدم.</string>
+    <string name="error_navigate_try_again">خطأ، حاول مرة أخرى!</string>
+    <string name="error_get_data">خطأ أثناء عرض البيانات!</string>
+    <string name="error_get_team_data">خطأ أثناء عرض بيانات الفريق!</string>
+    <string name="error_load_city">خطأ أثناء عرض المدن!</string>
+    <string name="error_load_client">خطأ أثناء عرض بيانات العملاء!</string>
+    <string name="error_update_data">خطأ أثناء تحديث البيانات.</string>
+    <string name="invalid_phone_num">رقم الهاتف غير صحيح.</string>
+    <string name="invalid_action">لا يمكن إكمال الإجراء.</string>
+
+    <!--Actions-->
+    <string name="share_action">مشاركة مع الفريق</string>
+    <string name="nothing"> </string>
+    <string name="check_signed_user">جاري البحث عن مستخدم…</string>
+    <string name="synced_successfully">تمت مزامنة المستخدم بنجاح.</string>
+    <string name="get_remote_user">جاري الحصول على بيانات المستخدم المسجل…</string>
+    <string name="cant_find_remote_user">لم يتم العثور على مستخدم مسجل.</string>
+    <string name="update_user_data">جارٍ تحديث بيانات المستخدم المحلي…</string>
+    <string name="not_permitted">ليس لديك إذن.</string>
+    <string name="no_data">لايوجد بيانات.</string>
+    <string name="error_set_auto_backup">خطأ أثناء تعيين عملية النسخ الاحتياطي التلقائي.</string>
+
+    <!--Presences-->
+    <string name="settings">الأعدادات</string>
+    <string name="cache_time">وقت التخزين المؤقت بالدقائق.</string>
+    <string name="client_data_cache">وقت التخزين المؤقت الخاص ببيانات العملاء.</string>
+    <string name="exchange_data_cache">وقت التخزين المؤقت لقائمةالمعاملات.</string>
+    <string name="set_cache_time">اضبط وقت التخزين المؤقت لبيانات العملاء والفريق.</string>
+    <string name="set_exchange_cache_time">اضبط وقت التخزين المؤقت  لقائمةالمعاملات.</string>
+    <string name="display_only_today_items">عرض معاملات اليوم فقط</string>
+    <string name="auto_data_backup">النسخ الاحتياطي التلقائي للبيانات.</string>
+    <string name="start_backup">بدأ نسخ الاحتياطي للبيانات في جهازك المحلي…</string>
+    <string name="auto_backup_info">اسمح للتطبيق بتحميل نسخة احتياطية للبيانات في كل وقت محدد.</string>
+
+    <!--Filter-->
+    <string name="search_for_exchange">أبحث عن عملية</string>
+    <string name="search_by">اكتب اسمًا أو مدينة أو بحثًا عن التاريخ.</string>
+    <string name="select_city">أختر مدينة</string>
+    <string name="select_client">أختر عميل</string>
+    <string name="buy">شراء</string>
+    <string name="sell">بيع</string>
+    <string name="pending">قيد التنفيذ</string>
+    <string name="completed">أكتملت</string>
+    <string name="total_balance">إجمالي الرصيد</string>
+    <string name="total_exchange">إجمالي قائمة المعاملات</string>
+    <string name="today_exchange">قائمة المعاملات اليوم</string>
+
+    <!--StockDetails-->
+    <string name="update_item">تعديل البيانات</string>
+    <string name="created_by">انشأ بواسطة</string>
+    <string name="update_by">التحصيل بواسطة</string>
+    <string name="date">تاريخ</string>
+    <string name="asset_price">سعر الجرام</string>
+    <string name="asset_quantity">الكمية</string>
+    <string name="asset_total_price">المبلغ الكلي</string>
+    <string name="details">تفاصيل</string>
+    <string name="le">ج</string>
+    <string name="g">جرام</string>
+    <string name="avg">متوسط</string>
+    <string name="operation_type">نوع العملية</string>
+    <string name="add_item">أضافة عنصر</string>
+    <string name="store_temp">تخزين مؤقت ؟</string>
+    <string name="updated_success">تمت بنجاح</string>
+    <string name="delete_item">حذف</string>
+    <string name="delete_permanently">حذف بشكل نهائي</string>
+    <string name="send_data_to_server">إرسال البيانات مؤقتة إلى الخادم.</string>
+    <string name="select">حدد العنصر</string>
+
+    <!--Profile-->
+    <string name="activities">النشاطات</string>
+    <string name="temp_database">الذاكرة المؤقتة.</string>
+    <string name="invalid_cache">ذاكرة التخزين المؤقت غير صالحة؟</string>
+    <string name="invalid_cache_info">امسح ذاكرة التخزين المؤقت للبيانات.</string>
+    <string name="logout">تسجيل الخروج؟</string>
+    <string name="logout_">تسجيل الخروج.</string>
+    <string name="delete_completed_item">حذف كافة العناصر المكتملة؟</string>
+    <string name="backup_first">تخزين نسخه الاحتياطي أولاً؟</string>
+
+
+    <!--Client-->
+    <string name="update">حفظ</string>
+    <string name="confirm">تأكيد</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="update_client">تعديل بيانات العميل</string>
+    <string name="client_name">أسم العميل</string>
+    <string name="delete_client">حذف العميل</string>
+    <string name="call_client">أتصال</string>
+    <string name="send_message">ارسل رسالة</string>
+
+    <!--City-->
+    <string name="update_city">تعديل الموقع</string>
+    <string name="delete_city">حذف الموقع</string>
+    <string name="city_name">أسم الموقع</string>
+    <string name="add_new_city">أضافة موقع جديد؟</string>
+
+    <!--Team-->
+    <string name="team">الفريق</string>
+    <string name="pm">مدير مشروع</string>
+    <string name="pms">مدرين المشروع</string>
+    <string name="admin">مدير</string>
+    <string name="admins">مديرين</string>
+    <string name="team_info">تحديث الفريق، تفعيل أو إلغاء تنشيط الأعضاء.</string>
+    <string name="update_user">تعديل بيانات المستخدم</string>
+    <string name="_0_00">٠.٠٠</string>
+</resources>

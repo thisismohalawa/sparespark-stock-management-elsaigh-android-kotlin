@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radio_group"
+    style="@style/matchWrap_"
+    android:background="@drawable/item_rounded_layout_gray"
+    android:orientation="horizontal"
+    android:padding="@dimen/_5sdp">
+
+    <RadioButton
+        android:id="@+id/radio_btn1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <RadioButton
+        android:id="@+id/radio_btn_2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+</RadioGroup>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchMatch_">
+
+    <LinearLayout style="@style/matchMatchWithPadding_">
+
+        <include
+            android:id="@+id/item_user_info"
+            layout="@layout/item_user_info" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/bottom_sheet_update_user"
+        style="@style/Widget.Design.BottomSheet.Modal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="@dimen/_50sdp"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+
+        <LinearLayout
+            style="@style/matchMatch_"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:padding="@dimen/_15sdp">
+
+            <TextView
+                style="@style/mainLoginInfoTitle_"
+                android:layout_gravity="start"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:text="@string/update_user" />
+
+            <Switch
+                android:id="@+id/admin_switch"
+                style="@style/subTitle_"
+                android:text="@string/admin"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <Switch
+                android:id="@+id/pm_switch"
+                style="@style/subTitle_"
+                android:text="@string/pm"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

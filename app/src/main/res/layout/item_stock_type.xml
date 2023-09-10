@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_rounded_layout"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:padding="@dimen/_10sdp">
+
+    <LinearLayout
+        android:id="@+id/buy_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/subTitle_"
+            android:layout_gravity="center"
+            android:text="@string/buy"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view_buy"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_5sdp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sell_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/subTitle_"
+            android:layout_gravity="center"
+            android:text="@string/sell"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view_sell"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:padding="@dimen/_5sdp" />
+    </LinearLayout>
+</LinearLayout>

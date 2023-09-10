@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/matchMatch_">
+
+    <LinearLayout style="@style/matchMatchWithPadding_">
+
+        <TextView
+            style="@style/subTitle_"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="@string/search_for_exchange" />
+
+        <include
+            android:id="@+id/item_search"
+            layout="@layout/item_search" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <include
+            android:id="@+id/item_city_spinner"
+            layout="@layout/item_spinner" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <include
+            android:id="@+id/item_client_spinner"
+            layout="@layout/item_spinner" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <include
+            android:id="@+id/item_radio_group_pay_type"
+            layout="@layout/item_radio_group" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <include
+            android:id="@+id/item_radio_group_pay_activate"
+            layout="@layout/item_radio_group" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec_stock_List"
+            style="@style/matchMatch_"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@drawable/item_rounded_layout_gray"
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <TextView
+            android:id="@+id/txt_total_info"
+            style="@style/subTitle_"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@drawable/item_rounded_layout_gray"
+            android:maxLines="2"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_14ssp" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

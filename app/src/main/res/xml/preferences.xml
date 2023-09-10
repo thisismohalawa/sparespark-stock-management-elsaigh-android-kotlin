@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings">
+
+        <PreferenceCategory android:title="@string/auto_data_backup">
+            <SwitchPreference
+                android:defaultValue="false"
+                android:disableDependentsState="false"
+                android:icon="@drawable/ic_buy"
+                android:key="USE_AUTO_BACKUP"
+                android:summary="@string/auto_backup_info"
+                android:title="@string/auto_data_backup" />
+        </PreferenceCategory>
+
+        <PreferenceCategory android:title="@string/cache_time">
+
+            <EditTextPreference
+                android:defaultValue="480"
+                android:icon="@drawable/ic_time"
+                android:key="CACHE_TIME"
+                android:summary="@string/set_cache_time"
+                android:title="@string/client_data_cache" />
+
+            <EditTextPreference
+                android:defaultValue="0"
+                android:icon="@drawable/ic_time"
+                android:key="EXCHANGE_CACHE_TIME"
+                android:summary="@string/set_exchange_cache_time"
+                android:title="@string/exchange_data_cache" />
+
+        </PreferenceCategory>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_layout"
+    style="@style/matchWrap_"
+    android:padding="@dimen/_5sdp">
+
+    <ImageView
+        android:id="@+id/settings_icon"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:src="@drawable/ic_settings"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/info_layout"
+        style="@style/matchWrap_"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_toStartOf="@id/settings_icon">
+
+        <TextView
+            android:id="@+id/txt_total_price"
+            style="@style/mainInfoTitle_"
+            android:drawablePadding="@dimen/_5sdp"
+            android:text="@string/_0_00"
+            tools:ignore="UseCompatTextViewDrawableXml" />
+
+        <TextView
+            android:id="@+id/txt_total_quantity"
+            style="@style/mainInfoTitle_"
+            android:drawablePadding="@dimen/_5sdp"
+            android:text="@string/_0_00"
+            tools:ignore="UseCompatTextViewDrawableXml" />
+
+        <TextView
+            android:id="@+id/txt_average"
+            style="@style/mainInfoTitle_"
+            android:drawablePadding="@dimen/_5sdp"
+            android:text="@string/_0_00"
+            tools:ignore="UseCompatTextViewDrawableXml" />
+
+    </LinearLayout>
+
+</RelativeLayout>

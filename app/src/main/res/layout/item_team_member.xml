@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp">
+
+
+    <ImageView
+        android:id="@+id/info_img"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_75sdp"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/item_rounded_layout"
+        android:padding="@dimen/_10sdp"
+        android:src="@drawable/ic_user"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        style="@style/matchWrap_"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_toEndOf="@id/info_img">
+
+        <TextView
+            android:id="@+id/user_name"
+            style="@style/subTitle_"
+            android:maxLines="1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_email"
+            style="@style/subTitle_"
+            android:maxLines="1" />
+
+        <Switch
+            android:id="@+id/active_switch"
+            style="@style/subTitle_"
+            android:text="@string/activated"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+</RelativeLayout>

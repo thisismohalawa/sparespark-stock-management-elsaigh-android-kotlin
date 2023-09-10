@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/matchMatchWithPadding_">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rec_team_list"
+        style="@style/matchWrap_"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

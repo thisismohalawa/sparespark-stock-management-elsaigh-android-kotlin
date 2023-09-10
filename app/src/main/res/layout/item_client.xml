@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/matchWrap_"
+    android:padding="@dimen/_10sdp">
+
+    <LinearLayout
+        style="@style/matchWrap_"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_toStartOf="@id/img_options">
+
+        <TextView
+            android:id="@+id/client_name"
+            style="@style/subTitle_"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/client_city"
+            style="@style/subTitle_" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_options"
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/_5sdp"
+        android:src="@drawable/ic_menu_vert"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>

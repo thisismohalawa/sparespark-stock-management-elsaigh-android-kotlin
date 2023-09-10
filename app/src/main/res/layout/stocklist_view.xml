@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/matchMatch_">
+
+    <LinearLayout style="@style/matchMatchWithPadding_">
+
+        <TextView
+            android:id="@+id/txt_total_balance"
+            style="@style/mainInfoTitle_"
+            android:text="@string/total_balance"
+            android:textSize="@dimen/_18ssp" />
+
+        <include
+            android:id="@+id/item_stock_info"
+            layout="@layout/item_stock_info" />
+
+        <TextView
+            android:id="@+id/txt_exchange_list"
+            style="@style/mainInfoTitle_"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="@string/today_exchange"
+            android:textSize="@dimen/_18ssp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec_stock_List"
+            style="@style/matchWrap_"
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_update_remote"
+            style="@style/actionRoundedBtnGreen_"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="@string/send_data_to_server"
+            android:visibility="gone" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/call_menu"
+        android:title="@string/call_client" />
+
+    <item
+        android:id="@+id/msg_menu"
+        android:title="@string/send_message" />
+    <item
+        android:id="@+id/delete_menu"
+        android:title="@string/delete_client" />
+</menu>

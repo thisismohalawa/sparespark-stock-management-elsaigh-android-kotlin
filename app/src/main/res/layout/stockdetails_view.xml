@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/matchMatchWithPadding_">
+
+    <LinearLayout style="@style/matchMatch_">
+
+        <TextView
+            style="@style/subTitle_"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="@string/operation_type" />
+
+        <include
+            android:id="@+id/item_stock_type"
+            layout="@layout/item_stock_type" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <include
+            android:id="@+id/input_client_autocomplete"
+            layout="@layout/item_autocomplete_edittext" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_5sdp" />
+
+        <include
+            android:id="@+id/input_asset_gram_price"
+            layout="@layout/item_num_input_edittext" />
+
+        <include
+            android:id="@+id/input_asset_quantity"
+            layout="@layout/item_num_input_edittext" />
+
+        <include
+            android:id="@+id/input_total_price"
+            layout="@layout/item_num_input_edittext" />
+
+        <include
+            android:id="@+id/input_txt_details"
+            layout="@layout/item_input_edittext" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_update_item"
+            style="@style/actionRoundedBtn_"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_store_temp"
+            style="@style/actionRoundedBtnGreen_"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:text="@string/store_temp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

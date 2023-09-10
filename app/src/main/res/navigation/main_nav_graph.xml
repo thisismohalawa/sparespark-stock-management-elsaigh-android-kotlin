@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/stockListView">
+
+    <fragment
+        android:id="@+id/stockListView"
+        android:name="sparespark.stock.management.presentation.stocklist.StockListView"
+        android:label="StockListView">
+        <action
+            android:id="@+id/navigateToSettingsView"
+            app:destination="@id/settingsView" />
+
+        <action
+            android:id="@+id/navigateToStockDetailsView"
+            app:destination="@+id/stockDetailsView" />
+    </fragment>
+    <fragment
+        android:id="@+id/stockDetailsView"
+        android:name="sparespark.stock.management.presentation.stockdetails.StockDetailsView"
+        android:label="StockDetailsView">
+        <argument
+            android:name="stock"
+            app:argType="sparespark.stock.management.data.model.stock.Stock"
+            app:nullable="true" />
+        <action
+            android:id="@+id/navigateToStockListView"
+            app:destination="@id/stockListView" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/profileView"
+        android:name="sparespark.stock.management.presentation.profile.ProfileView"
+        android:label="ProfileView">
+        <action
+            android:id="@+id/navigateToTeamListView"
+            app:destination="@id/teamListView" />
+
+        <action
+            android:id="@+id/navigateToTempListView"
+            app:destination="@id/tempStockListView" />
+    </fragment>
+    <fragment
+        android:id="@+id/clientListView"
+        android:name="sparespark.stock.management.presentation.clientlist.ClientListView"
+        android:label="ClientListView">
+        <action
+            android:id="@+id/navigateToCityView"
+            app:destination="@id/cityListView" />
+    </fragment>
+    <fragment
+        android:id="@+id/cityListView"
+        android:name="sparespark.stock.management.presentation.citylist.CityListView"
+        android:label="CityListView" />
+    <fragment
+        android:id="@+id/settingsView"
+        android:name="sparespark.stock.management.presentation.settings.SettingsView"
+        android:label="SettingsView" />
+    <fragment
+        android:id="@+id/teamListView"
+        android:name="sparespark.stock.management.presentation.teamlist.TeamListView"
+        android:label="TeamListView">
+        <action
+            android:id="@+id/navigateToTeamDetailsView"
+            app:destination="@id/teamDetailsView" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/teamDetailsView"
+        android:name="sparespark.stock.management.presentation.teamdetails.TeamDetailsView"
+        android:label="TeamDetailsView">
+        <argument
+            android:name="user"
+            app:argType="sparespark.stock.management.data.model.login.User"
+            app:nullable="true" />
+        <action
+            android:id="@+id/navigateToTeamListView"
+            app:destination="@id/teamListView" />
+    </fragment>
+    <fragment
+        android:id="@+id/filterStockListView"
+        android:name="sparespark.stock.management.presentation.filterstocklist.FilterStockListView"
+        android:label="FilterStockListView">
+        <action
+            android:id="@+id/navigateToStockListView"
+            app:destination="@id/stockListView" />
+        <action
+            android:id="@+id/navigateToStockDetailsView"
+            app:destination="@+id/stockDetailsView" />
+    </fragment>
+    <fragment
+        android:id="@+id/tempStockListView"
+        android:name="sparespark.stock.management.presentation.stocklist.TempStockListView"
+        android:label="TempStockListView">
+        <action
+            android:id="@+id/navigateToStockDetailsView"
+            app:destination="@+id/stockDetailsView" />
+        <action
+            android:id="@+id/navigateToStockListView"
+            app:destination="@id/stockListView" />
+    </fragment>
+
+</navigation>
